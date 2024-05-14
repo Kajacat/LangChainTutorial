@@ -9,7 +9,6 @@ from langchain.embeddings.huggingface import HuggingFaceEmbeddings
 load_dotenv()
 
 embeddings = HuggingFaceEmbeddings()
-video_url = "https://www.youtube.com/watch?v=_ZvnD73m40o&ab_channel=freeCodeCamp.org"
 
 
 def create_vector_db_from_youtube(url):
